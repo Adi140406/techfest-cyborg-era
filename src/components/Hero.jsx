@@ -84,8 +84,13 @@ export default function Hero({ onExplore, onEnter, mouse }) {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.3 }}
-          className="mb-3"
+          className="mb-3 flex flex-col items-center gap-3"
         >
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Logo_techfest.jpg"
+            alt="Techfest IIT Bombay"
+            className="w-12 h-12 md:w-16 md:h-16 object-contain rounded brightness-110"
+          />
           <span className="font-orbitron text-sm md:text-xl tracking-[0.4em] text-blue-400 uppercase font-bold drop-shadow-[0_0_8px_rgba(0,100,255,0.4)]">
             IIT Bombay Techfest 2026 Presents
           </span>

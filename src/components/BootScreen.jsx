@@ -73,7 +73,12 @@ export default function BootScreen({ onComplete }) {
 
         <div className="relative z-10 flex flex-col items-center max-w-lg w-full px-6">
           <div className="mb-8 text-center">
-            <div className="mb-4">
+            <div className="mb-4 space-y-4">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Logo_techfest.jpg"
+                alt="Techfest IIT Bombay"
+                className="w-16 h-16 mx-auto object-contain rounded brightness-110"
+              />
               <CyborgFace progress={progress / 100} />
             </div>
             <h1 className="font-orbitron text-2xl md:text-3xl font-bold gradient-text tracking-wider">

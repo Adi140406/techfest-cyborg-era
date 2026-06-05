@@ -7,9 +7,11 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-10">
           <div className="md:col-span-2">
             <div className="flex items-center gap-3 mb-4">
-              <div className="w-10 h-10 border border-neon-cyan/50 rounded flex items-center justify-center">
-                <span className="font-orbitron font-black text-sm text-neon-cyan">TF</span>
-              </div>
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Logo_techfest.jpg"
+                alt="Techfest IIT Bombay"
+                className="w-10 h-10 object-contain rounded brightness-110"
+              />
               <span className="font-orbitron text-xs font-bold tracking-wider text-white/60">
                 TECHFEST 2026
               </span>

@@ -35,9 +35,11 @@ export default function Navbar() {
     >
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 h-16 md:h-20 flex items-center justify-between">
         <a href="#hero" className="flex items-center gap-3 group">
-          <div className="w-8 h-8 md:w-10 md:h-10 border border-neon-cyan/50 rounded flex items-center justify-center">
-            <span className="font-orbitron font-black text-xs md:text-sm text-neon-cyan">TF</span>
-          </div>
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Logo_techfest.jpg"
+            alt="Techfest IIT Bombay"
+            className="w-8 h-8 md:w-10 md:h-10 object-contain rounded brightness-110"
+          />
           <div className="hidden sm:block">
             <span className="font-orbitron text-[10px] font-bold tracking-wider text-white/80 block leading-tight">
               TECHFEST<br />2026
